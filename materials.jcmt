@@ -1,0 +1,219 @@
+<?
+keys['permittivity_0'] = keys['n_0]
+keys['permittivity_1'] = keys['n_1']
+keys['permittivity_2'] = keys['n_2']
+keys['permittivity_3'] = keys['n_3']
+keys['permittivity_4'] = keys['n_4']
+keys['permittivity_5'] = keys['n_5']
+keys['permittivity_6'] = keys['n_6']
+keys['permittivity_7'] = keys['n_7']
+keys['permittivity_8'] = keys['n_8']
+keys['permittivity_9'] = keys['n_9']
+keys['permittivity_10'] = keys['n_10']
+keys['permittivity_11'] = keys['n_11']
+keys['permittivity_12'] = keys['n_12']
+keys['permittivity_13'] = keys['n_13']
+keys['permittivity_14'] = keys['n_14']
+keys['permittivity_15'] = keys['n_15']
+keys['permittivity_16'] = keys['n_16']
+keys['permittivity_17'] = keys['n_17']
+keys['permittivity_18'] = keys['n_18']
+keys['permittivity_19'] = keys['n_19']
+keys['permittivity_20'] = keys['n_20']
+keys['permittivity_21'] = keys['n_21']
+keys['permittivity_22'] = keys['n_22']
+keys['permittivity_23'] = keys['n_23']
+keys['permittivity_24'] = keys['n_24']
+keys['permittivity_25'] = keys['n_25']
+keys['permittivity_26'] = keys['n_26']
+keys['permittivity_27'] = keys['n_27']
+keys['permittivity_28'] = keys['n_28']
+keys['permittivity_29'] = keys['n_29']
+?>
+
+Material { 
+  Name = "Air0" 
+  Id = 0
+  RelPermittivity = %(permittivity_0)e
+  RelPermeability = 1.0
+}
+Material { 
+  Name = "Air1" 
+  Id = 1
+  RelPermittivity = %(permittivity_1)e
+  RelPermeability = 1.0
+}
+Material { 
+  Name = "Air2" 
+  Id = 2
+  RelPermittivity = %(permittivity_2)e
+  RelPermeability = 1.0
+}
+Material { 
+  Name = "Air3" 
+  Id = 3
+  RelPermittivity = %(permittivity_3)e
+  RelPermeability = 1.0
+}
+Material { 
+  Name = "Air4" 
+  Id = 4
+  RelPermittivity = %(permittivity_4)e
+  RelPermeability = 1.0
+}
+Material { 
+  Name = "Air5" 
+  Id = 5
+  RelPermittivity = %(permittivity_5)e
+  RelPermeability = 1.0
+}
+Material { 
+  Name = "Air6" 
+  Id = 6
+  RelPermittivity = %(permittivity_6)e
+  RelPermeability = 1.0
+}
+Material { 
+  Name = "Air7" 
+  Id = 7
+  RelPermittivity = %(permittivity_7)e
+  RelPermeability = 1.0
+}
+Material { 
+  Name = "Air8" 
+  Id = 8
+  RelPermittivity = %(permittivity_8)e
+  RelPermeability = 1.0
+}
+Material { 
+  Name = "Air9" 
+  Id = 9
+  RelPermittivity = %(permittivity_9)e
+  RelPermeability = 1.0
+}
+Material { 
+  Name = "Air10" 
+  Id = 10
+  RelPermittivity = %(permittivity_10)e
+  RelPermeability = 1.0
+}
+Material { 
+  Name = "Air11" 
+  Id = 11
+  RelPermittivity = %(permittivity_11)e
+  RelPermeability = 1.0
+}
+Material { 
+  Name = "Air12" 
+  Id = 12
+  RelPermittivity = %(permittivity_12)e
+  RelPermeability = 1.0
+}
+Material { 
+  Name = "Air13" 
+  Id = 13
+  RelPermittivity = %(permittivity_13)e
+  RelPermeability = 1.0
+}
+Material { 
+  Name = "Air14" 
+  Id = 14
+  RelPermittivity = %(permittivity_14)e
+  RelPermeability = 1.0
+}
+Material { 
+  Name = "Air15" 
+  Id = 15
+  RelPermittivity = %(permittivity_15)e
+  RelPermeability = 1.0
+}
+Material { 
+  Name = "Air16" 
+  Id = 16
+  RelPermittivity = %(permittivity_16)e
+  RelPermeability = 1.0
+}
+Material { 
+  Name = "Air17" 
+  Id = 17
+  RelPermittivity = %(permittivity_17)e
+  RelPermeability = 1.0
+}
+Material { 
+  Name = "Air18" 
+  Id = 18
+  RelPermittivity = %(permittivity_18)e
+  RelPermeability = 1.0
+}
+Material { 
+  Name = "Air19" 
+  Id = 19
+  RelPermittivity = %(permittivity_19)e
+  RelPermeability = 1.0
+}
+Material { 
+  Name = "Air20" 
+  Id = 20
+  RelPermittivity = %(permittivity_20)e
+  RelPermeability = 1.0
+}
+Material { 
+  Name = "Air21" 
+  Id = 21
+  RelPermittivity = %(permittivity_21)e
+  RelPermeability = 1.0
+}
+Material { 
+  Name = "Air22" 
+  Id = 22
+  RelPermittivity = %(permittivity_22)e
+  RelPermeability = 1.0
+}
+Material { 
+  Name = "Air23" 
+  Id = 23
+  RelPermittivity = %(permittivity_23)e
+  RelPermeability = 1.0
+}
+Material { 
+  Name = "Air24" 
+  Id = 24
+  RelPermittivity = %(permittivity_24)e
+  RelPermeability = 1.0
+}
+Material { 
+  Name = "Air25" 
+  Id = 25
+  RelPermittivity = %(permittivity_25)e
+  RelPermeability = 1.0
+}
+Material { 
+  Name = "Air26" 
+  Id = 26
+  RelPermittivity = %(permittivity_26)e
+  RelPermeability = 1.0
+}
+Material { 
+  Name = "Air27" 
+  Id = 27
+  RelPermittivity = %(permittivity_27)e
+  RelPermeability = 1.0
+}
+Material { 
+  Name = "Air28" 
+  Id = 28
+  RelPermittivity = %(permittivity_28)e
+  RelPermeability = 1.0
+}
+Material { 
+  Name = "Air29" 
+  Id = 29
+  RelPermittivity = %(permittivity_29)e
+  RelPermeability = 1.0
+}
+Material { 
+  Name = "Air30" 
+  Id = 30
+  RelPermittivity = %(permittivity_30)e
+  RelPermeability = 1.0
+}

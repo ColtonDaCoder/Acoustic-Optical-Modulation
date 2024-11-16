@@ -1,0 +1,167 @@
+<?
+import math
+keys['lattice_vector'] = keys['pitch']
+keys['half_pitch'] = keys['pitch']/2
+?>
+
+Layout3D {
+  UnitOfLength = 1e-09
+ 
+  MeshOptions {
+    MaximumSideLength = 40
+  }
+  BoundaryConditions {
+    Boundary {
+      Direction = Vertical 
+      Class = Transparent 
+    }
+  }
+  Extrusion {
+    Objects {
+      Polygon { 
+        Name = "ComputationalDomain/Background" 
+        DomainId = 3
+        Priority = -1
+        Port = Origin
+        PeriodicUnitCell {
+            LatticeAngle = 90
+            LatticeVectorLengths = [%(lattice_vector)e %(lattice_vector)e]
+            Shape = Rectilinear
+        }
+      } 
+      
+    }
+
+    MultiLayer {
+      MeshOptions {
+        MaximumSideLengthZ = 25
+      }    
+      
+	Layer {
+          Thickness = 50
+          DomainId = 3
+      	}
+	Layer {
+	  Thickness = %(thickness)
+	  DomainIdMapping = [50 0]
+	}
+	Layer {
+	  Thickness = %(thickness)
+	  DomainIdMapping = [50 1]
+	}
+	Layer {
+	  Thickness = %(thickness)
+	  DomainIdMapping = [50 2]
+	}
+	Layer {
+	  Thickness = %(thickness)
+	  DomainIdMapping = [50 3]
+	}
+	Layer {
+	  Thickness = %(thickness)
+	  DomainIdMapping = [50 4]
+	}
+	Layer {
+	  Thickness = %(thickness)
+	  DomainIdMapping = [50 5]
+	}
+	Layer {
+	  Thickness = %(thickness)
+	  DomainIdMapping = [50 6]
+	}
+	Layer {
+	  Thickness = %(thickness)
+	  DomainIdMapping = [50 7]
+	}
+	Layer {
+	  Thickness = %(thickness)
+	  DomainIdMapping = [50 8]
+	}
+	Layer {
+	  Thickness = %(thickness)
+	  DomainIdMapping = [50 9]
+	}
+	Layer {
+	  Thickness = %(thickness)
+	  DomainIdMapping = [50 10]
+	}
+	Layer {
+	  Thickness = %(thickness)
+	  DomainIdMapping = [50 11]
+	}
+	Layer {
+	  Thickness = %(thickness)
+	  DomainIdMapping = [50 12]
+	}
+	Layer {
+	  Thickness = %(thickness)
+	  DomainIdMapping = [50 13]
+	}
+	Layer {
+	  Thickness = %(thickness)
+	  DomainIdMapping = [50 14]
+	}
+	Layer {
+	  Thickness = %(thickness)
+	  DomainIdMapping = [50 15]
+	}
+	Layer {
+	  Thickness = %(thickness)
+	  DomainIdMapping = [50 16]
+	}
+	Layer {
+	  Thickness = %(thickness)
+	  DomainIdMapping = [50 17]
+	}
+	Layer {
+	  Thickness = %(thickness)
+	  DomainIdMapping = [50 18]
+	}
+	Layer {
+	  Thickness = %(thickness)
+	  DomainIdMapping = [50 19]
+	}
+	Layer {
+	  Thickness = %(thickness)
+	  DomainIdMapping = [50 20]
+	}
+	Layer {
+	  Thickness = %(thickness)
+	  DomainIdMapping = [50 21]
+	}
+	Layer {
+	  Thickness = %(thickness)
+	  DomainIdMapping = [50 22]
+	}
+	Layer {
+	  Thickness = %(thickness)
+	  DomainIdMapping = [50 23]
+	}
+	Layer {
+	  Thickness = %(thickness)
+	  DomainIdMapping = [50 24]
+	}
+	Layer {
+	  Thickness = %(thickness)
+	  DomainIdMapping = [50 25]
+	}
+	Layer {
+	  Thickness = %(thickness)
+	  DomainIdMapping = [50 26]
+	}
+	Layer {
+	  Thickness = %(thickness)
+	  DomainIdMapping = [50 27]
+	}
+	Layer {
+	  Thickness = %(thickness)
+	  DomainIdMapping = [50 28]
+	}
+	Layer {
+	  Thickness = %(thickness)
+	  DomainIdMapping = [50 29]
+	}
+    }
+  }
+
+
